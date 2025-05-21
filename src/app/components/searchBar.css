@@ -1,0 +1,17 @@
+.searchBarInput {
+    border: none;
+    margin-left: 5px;
+    width: 300px;
+}
+
+.searchBarInput:focus {
+    outline: none;
+}
+
+.searchBarContainer {
+    display: inline-block;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    border-radius: 2px;
+
+}

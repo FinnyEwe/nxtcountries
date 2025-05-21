@@ -1,0 +1,28 @@
+.countryCard {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  transition: all ease-in-out 0.3s;
+}
+
+.flag {
+  width: 100%;
+  aspect-ratio: 16/9;
+  border-radius: 5px;
+}
+
+.previewInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.countryPreview {
+  padding: 10px;
+}
+
+.countryCard:hover {
+  scale: 1.1;
+  cursor: pointer;
+}

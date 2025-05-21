@@ -1,0 +1,75 @@
+.body {
+    display: flex;
+    justify-content: center;
+}
+
+.countryPageGrid {
+    display: flex;
+    flex-direction: column;
+    padding-left: 70px;
+    padding-right: 70px;
+    gap: 50px;
+}
+
+.flagImage {
+   width: 500px;
+}
+
+.backButton {
+    padding: 10px;
+    width: 100px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+    transition: all ease-in-out 0.2s;
+}
+
+.backButton:hover {
+    scale: 1.1
+}
+
+
+.flagInfoGrid {
+    display: flex;
+    gap: 100px;
+}
+
+
+.countryInfoGrid {
+    padding: 10px;
+}
+
+.infoListOne {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.infoListTwo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.infoList {
+    margin-top: 10px;
+    display: flex;
+    gap: 50px;
+    margin-bottom: 30px;
+}
+
+
+.borderButton {
+    margin-left: 5px;
+    margin-top: 5px;
+    padding: 5px 12px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+}
